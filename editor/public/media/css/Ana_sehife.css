@@ -1,0 +1,161 @@
+body{
+	/*background-color: #9fbfdf;*/
+	padding: 0;
+	margin: 0;
+	/*height: 100%;*/
+	/*max-height: 100vh;*/
+	overflow: hidden;
+	user-select: none;
+	-ms-user-select: none;
+}
+a:link{
+	text-decoration: none;
+}
+::-webkit-scrollbar{
+	width: 3px;
+	height: 3px;
+	background: red;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.upperSide{
+	background-color: #9fbfdf;
+	height: 17vh;
+}
+.upperSideUL{
+	margin-top: 0;
+	list-style-type: none;
+}
+.cixis {
+	background-color: transparent;
+    color: #ffffff;
+    float: right;
+	margin-top: 1vh;
+	margin-right: 4vh;
+    border-radius: 28px;
+    -moz-border-radius: 28;
+    -webkit-border-radius: 28;
+    padding: 5px 15px 5px 15px;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.cixis:hover {
+  background: #FF7373;
+  transition: 0.3s;
+}
+.yeni_qanun{
+	background-color: #9DF100;
+	color: #F19600;
+	padding: 5px 8px;
+	margin-top: 10vh;
+	margin-right: 15vh;
+	border-radius: 10px;
+	float: right;
+}
+.yeni_qanun:hover{
+	background-color: #00F104;
+}
+.centerSide{
+	width: 100%;
+	height: 80vh;
+	/*background-color: red;*/
+	display: flex;
+}
+.title{
+	font-size: large;
+}
+
+.left{
+	width: 20%;
+	height: 100%;
+	background-color: white;
+	overflow-y: auto;
+}
+.axtaris_novleri{
+	height: 20vh;
+	overflow: auto;
+	margin-top: 0;
+	margin-left: 10px;
+	white-space: nowrap;
+}
+
+.right{
+	width: 80%;
+	height: 100%;
+	background-color: #9fbfdf;
+	overflow-y: auto;
+	overflow-x: auto;
+	text-align: center;
+}
+.qanunlar{
+	width: 70%;
+	height: 80%;
+	display: inline-block;
+}
+.qanun{
+	background-color: #AAD3D3;
+	border: 2px solid grey;
+	margin-top: 5px;
+	border-radius: 15px;
+}
+.qanun_nov{
+	background-color: #3687EE;
+	height: 5vh;
+	font-size: large;
+	border-radius: 13px;
+}
+.qanun_name{
+	/*background-color: #B2FABF;*/
+	display: none;
+	margin-top: 0;
+	margin-left: -10px;
+	text-align: center;
+}
+.qanun_link{
+	display: flex;
+}
+.qanun_link a{
+	/*background-color: #B2FABF;*/
+	color: black;
+	width: 100%;
+	height: 5vh;
+	display: block;
+	border-color: blue;
+	margin-top: 0;
+	margin-bottom: 2px;
+	text-decoration-color: none;
+}
+.qanun_link a:hover{
+	background-color: #B2FABF;
+}
+.sil{
+	background: url('../icons/trash.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	border: none;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.sil:hover{
+	cursor: pointer;
+}
+.bottomSide{
+	background-color: green;
+	height: 3vh;
+	text-align: center;
+}

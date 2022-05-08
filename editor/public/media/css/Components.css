@@ -1,0 +1,241 @@
+/*A4*/
+.VLTA{
+	/*background-color: green;*/
+	width: 100%;
+	font-size: large;
+	margin-top: 10px;
+}
+
+.mainVLTA{
+	width: 100%;
+	min-height: 3px;
+}
+.mainHLTA{
+	/*background-color: blue;*/
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.animate{
+	animation-name: new_el_color;
+	animation-duration: 5s;
+}
+@keyframes new_el_color{
+	from {background-color: pink}
+	to {background-color: white}
+}
+.mainHLTA_edit_on:hover{
+	background-color: #f0f5f5;
+	border: 1px solid #669999;
+}
+.mainHLTA_edit_on:hover .buttonsHL{
+	opacity: 1;
+}
+.mainHLTAonoverYes{
+	border: 3px dotted #FABE21;
+	opacity: 0.5;
+}
+.mainHLTAonoverNo{
+	border: 3px dotted red;
+	opacity: 0.5;
+}
+.mainHLonoverYes{
+	background-color: #22F98E!important;
+	opacity: 0.7;
+}
+.onoverYes{
+	border: 1px solid;
+	border-bottom-color: blue;
+	border-top-color: white;
+	border-right-color: white;
+	border-left-color: white;
+}
+
+.scrollColor{
+	animation: anim;
+	animation-duration: 3s;
+	-webkit-animation-name: anim; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+}
+.fullrow_clicked{
+	background-color: #6ECAF3;
+}
+.fullrow_taked{
+	background-color: #BAB3E5;
+}
+/* Safari 4.0 - 8.0 */
+@webkit-@keyframes anim{
+	from {background: #beebff}
+	to {background: white}
+}
+/* Standard syntax */
+@keyframes anim{
+	from {background: #66ccff}
+	to {background: white}
+}
+
+.mainDivTA{
+	width: 85%;
+	height: 100%;
+	margin-left: 80px;
+}
+.mainDivTA:hover{
+	/*background-color: #f0f5f5;
+	border: 1px solid #669999;*/
+}
+.labelTA{
+	color:black;
+	font-family: "Times New Roman", Times,serif;
+  	user-select: text;
+  	-ms-user-select: text;
+}
+.TA{
+	/*width: 100%;*/
+	min-height: 30px;
+	height: auto;
+	word-wrap: break-word;
+	/*display: inline-block;*/
+	user-select: text;
+  	-ms-user-select: text;
+}
+.TA:hover{
+	/*border-top: 1px solid #669999;*/
+}
+div [contentEditable]:empty:not(:visited):before{
+  content:attr(placeholder);
+  color: grey;
+  opacity: .7;
+  /*display: inline-block;*/
+}
+div [contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+.buttonsHL{
+	/*background-color: red;*/
+	width: 10%;
+	opacity: 0;
+	justify-content: center;
+}
+
+.buttons{
+	margin-top: 8px;
+	margin-left: 1px;
+	width: 25%;
+	height: 15px;
+	background-color: transparent;
+	border: none;
+}
+#evvel{
+	background: url("../icons/arrow.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: rotate3d(1, 1, 0, 180deg);
+	filter: brightness(.95);
+}
+#sil{
+	background: url("../icons/trash.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20px!important;
+	margin-top: 4px;
+}
+#sonra{
+	background: url("../icons/arrow.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: rotate3d(1, -1, 0, 180deg);
+	filter: brightness(.95);
+}
+#sonra:hover, #sil:hover, #evvel:hover{
+	background-size: 27px;
+}
+.buttons:hover{
+	background-size: 27px;
+	background-color: red;
+}
+
+.menubar{
+	border: 0px;
+	width: 20px;
+}
+.menubar_content{
+	background-color: white;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	box-shadow: 0 0 10px 0;
+}
+.openMenuBtn{
+	width: 100%;
+	margin-bottom: 7px;
+	transform: rotate(180deg);
+	font-size: larger;
+}
+.MenuItemsBtn{
+	width: 100%;
+	border: none;
+	display: block;
+	font-size: medium;
+}
+.MenuItemsBtn:hover{
+	background-color: #ddd;
+}
+
+/*Tree*/
+.VL{
+	width: 100%;
+	list-style-type: none;
+	/*background-color: green;*/
+}
+/*.mainVL:before{
+	content: "";
+	display: inline-block;
+	position: absolute;
+	background-color: red;
+	margin-left: -20px;
+	width: 3px;
+	height: 100%;
+}*/
+
+.mainVL{
+	/*background-color: green;*/
+	width: 100%;
+	display: none;
+	padding-left: 3vh;
+}
+.mainHL{
+	/*background-color: blue;*/
+	width: 100%;
+	height: 25px;
+	display: flex;
+	cursor: pointer;
+	-ms-user-select: none;
+	user-select: none;
+}
+.fullrow{
+	/*background-color: red;*/
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	left: 0;
+	cursor: pointer;
+}
+.fullrow:hover{
+	background-color: #beebff;
+	transition: 0.3s;
+}
+
+.minimizedBtn{
+	font-weight: 900;
+	font-size: medium;
+	position: relative;
+}
+.mainHL:hover .fullrow{
+	background-color: #beebff;
+	transition: 0.3s;
+} 
+.captionDiv{
+	margin-left: 10px;
+	font-size: large;
+	position: relative;
+}
