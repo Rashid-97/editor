@@ -6,7 +6,7 @@ I also used Nginx Web Server and configured it on FreeBSD OS.
 
 To set database connection need to change parameters in file 'editor/config/db_params.php'.
 
-I put two sql backups (.sql, .bak), hope one of them will be useful :)
+I put one sql backup (.bak), hope it will be useful :)
 
 Username: admin
 
