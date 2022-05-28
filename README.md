@@ -4,7 +4,7 @@ This is the first project I made during 2019-2020 years when I was an intern and
 I used HTML, CSS, Javascript/Jquery, PHP (no any frameworks) and SQL Server (MSSQL).
 I also used Nginx Web Server and configured it on FreeBSD OS.
 
-To set database connection need to change data in file 'editor/config/db_params.php'.
+To set database connection need to change parameters in file 'editor/config/db_params.php'.
 
 I put two sql backups (.sql, .bak), hope one of them will be useful :)
 
